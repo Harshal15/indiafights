@@ -20,7 +20,6 @@ width:100%;
 padding:5px;}
 .video{
 width:98%;
-margin:10%;
 }
 .vs,.map{
 width:100%;
@@ -128,4 +127,14 @@ padding:0;}
 	#clockdiv > div{ padding: 5px;}
 	#clockdiv div > span{ 
     padding: 5px;}
+	livee{
+	height:60vh;}
 }	
+
+@media (max-width:729){
+	.video iframe{
+		margin:2%;
+		padding:0;
+		width:80%;
+	}
+}
